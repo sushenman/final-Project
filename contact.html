@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact-Fan-Page</title>
+    <link rel="stylesheet" type="text/css" href="cs/style.css">
+
+  </head>
+  <body>
+
+    <img src="images/img.jpg" width="1500px" height="770px">
+    <div class = "navi">
+      <ul>
+        <li><a href="index.html">Home</a> </li>
+        <li> <a href="news.html">News</a></li>
+        <li><a href="trending.html">Trending</a></li>
+        <li> <a href="gallery.html">Gallery</a></li>
+        <li> <a href="contact.html">Community</a></li>
+      </ul>
+    </div>
+      <div class="area">
+    <h2>  Join With Us</h2>
+    <div id="errormsg">
+
+    </div>
+    <form name="myform" id="myform" action="index.html" method="post"onsubmit="return validation()">
+      <div class="input-field">
+    <input type="text" placeholder="Name" name="name">
+    </div>
+    <div class="input-field">
+    <input type="text" placeholder="youremail@example.com" name="email">
+    </div>
+    <div class="input-field">
+    <input type="text" placeholder="Address" name="address">
+    </div>
+    <div class="input-field">
+    <textarea id="message" placeholder="Message"></textarea>
+</div>
+<div class="btn">
+  <input type="submit" onsubmit="return submit()" >
+</div>
+
+</div>
+
+    </form>
+  </div>
+<script src="js/script.js"></script>
+
+  </body>
+  </html>

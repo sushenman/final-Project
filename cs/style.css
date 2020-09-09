@@ -256,7 +256,7 @@ width: 60%;
 
   margin-bottom: 10px;
 }
-.input-field input[type="text"],textarea{
+.input-field input[type="text"],textarea,[type="email"] {
   background: rgb(0, 0, 0); /* Fallback color */
   background: rgba(0, 0, 0, 0.5);
   width: 100%;

@@ -24,5 +24,6 @@ else if(email==""){
       document.myform.address.focus();
       return false;
     }
+    alert('Welcome to our community')
 return true;
 }

@@ -201,23 +201,8 @@ width: 60%;
 }
 .slide-container
 {
-  width: 1000px;
-  height: 650px;
-  margin: auto;
+  text-align: center;
 }
-.image-conatiner
-{
-   width: 4000px;
-   height: 650px;
-   position: relative;
-   transition: left 0.7s;
-   margin: auto;
-}
- .slide-image{
-   float:left;
-   margin:0;
-   padding: 0;
- }
 .line{
   font-size: 25px;
   font-weight: bold;
